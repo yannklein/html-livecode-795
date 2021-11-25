@@ -2,7 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
 
 /*Components*/
+@import url("components/container.css");
 @import url("components/card.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
 
 /* --- Fonts --- */
 body {
@@ -22,10 +25,7 @@ a {
 a:hover {
   text-decoration: none;
 }
-.container {
-  margin: 0 auto;
-  max-width: 1600px;
-}
+
 .text-center {
   text-align: center;
 }

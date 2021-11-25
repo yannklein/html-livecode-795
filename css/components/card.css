@@ -1,0 +1,43 @@
+.cards {
+  display: flex;
+}
+
+.card-container {
+  width: 400px;
+  margin: 16px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.card-white .btn-white {
+  opacity: 0;
+}
+
+.card-white:hover .btn-white {
+  transition: 1s;
+  opacity: 1;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.card-info img {
+  margin-right: 16px;
+}
+
+.card-info h2 {
+  margin: 0px;
+  font-size: 16px;
+}
